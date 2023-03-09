@@ -15,15 +15,18 @@ public class ejercicio_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        byte num1 = 123;
-        short num2 = 12345;
-        int num3 = 1234567890;
-        long num4 = 1234567890;
+        byte num1 = 127;
+        short num2 = 32767;
+        int num3 = 2147483647;
+        long num4 = 9223372036854775807l;
 
         float num5 = 23.12f;
         double num6 = 12.30d;
 
         char letra = 'a';
+        
+        // contantes se definen con final
+        final float iva = 0.21f;
 
         boolean verdadero = true;
         boolean falso = false;
