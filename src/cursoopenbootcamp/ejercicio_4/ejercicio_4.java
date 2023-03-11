@@ -4,15 +4,10 @@ package cursoopenbootcamp.ejercicio_4;
 import cursoopenbootcamp.ejercicio_4.herencia.SmartPhone;
 import cursoopenbootcamp.ejercicio_4.herencia.SmartWatch;
 
-/**
- *
- * @author eduar
- */
+
 public class ejercicio_4 {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
 
         SmartDevice mix = new SmartDevice(true, true, Integer.SIZE, Double.NaN);
